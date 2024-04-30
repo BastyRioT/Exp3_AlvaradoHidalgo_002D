@@ -1,5 +1,5 @@
 # RecycleApp ♻️
-Hollow es un pequeño minijuego en donde podrás resolver ejercicios matemáticos de los principales operadores aritméticos.
+RecycleApp es una aplicación que te enseñara a reciclar, este es un proyecto semestral, fue realizado por Bastián Alvarado y Yanara Hidalgo
 
 ![RecycleApp](project-imgs/Home)
 
