@@ -1,5 +1,7 @@
-Nombre del Proyecto: -Recycleapp Exp.3
+<h1>RecycleApp</h1>
+<hr>
+Aplicación realizada en Ionic con Angular, esta app busca enseñar y dar a conocer las formas de reciclaje existentes, el proyecto fue realizado por Bastián Alvarado y Yanara Hidalgo.
+<hr>
+<h1>Instalación</h1>
 
-Integrantes: -Bastián Alvarado -Yanara Hidalgo
-
-Instrucciones para correr el Proyecto: -Para la ejecución del proyecto, se debe diriguir a la ubicación del sistema donde se encuentra, prosiguiendo a escribir CMD en el bloque de dirección para asi abrir la consola de ingreso. Posteriormente para la visualización y ejecución debe escribir al interior del CMD: "ionic serve --lab" presionando enter dando paso a la espera mientras el sistema carga lo antes ejecutado. Al pasar unos segundos el navegador predeterminado de su selección se abrira una pestaña que muestre la aplicación donde podra interactuar con las diferentes funciones disponibles. -Como nota se instalo Firebase para la base de datos, llegando a destacar que debe instalarse este mismo plugin dentro de la maquina seleccionada para probar el proyecto, de lo contrario no llegara a funcionar de manera correcta la aplicación presentada. Para instalar este plugin, se debe ingresar al simbolo del sistema de la app e insertar el siguiente comando "npm install firebase @angular/fire" una vez instalado el plugin, ya estaría lista la app para ser usada.
+Para utilizar la app se necesitan instalar varias dependencias.
