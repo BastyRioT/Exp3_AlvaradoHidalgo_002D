@@ -1,13 +1,14 @@
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Baloo+Tamma+2:wght@700&display=swap" rel="stylesheet">
+
 <ion-content>
-
-  <br><br><br><br>
-
-  <h3 style="text-align: center; color: white;">¿Estás seguro de que quieres cerrar sesión?</h3><br>
-  <center>
-    <ion-button (click)="onLogout()"> Sí</ion-button>
-    <ion-button routerLink="/inicio" color="danger">No</ion-button>
-  </center><br><br>
-  <img src="/assets/logo.png" class="logo">
-
-
+  <div class="container">
+    <h3 class="centerbaloo">¿Estás seguro de que quieres cerrar sesión?</h3><br>
+    <div class="logout">
+      <ion-button (click)="onLogout()">Cerrar Sesión</ion-button>
+      <ion-button routerLink="/inicio" color="danger">Volver</ion-button><br><br>
+    </div>
+    <img src="/assets/logo.png" class="logo">
+  </div>
 </ion-content>

@@ -3,20 +3,16 @@
 <link href="https://fonts.googleapis.com/css2?family=Baloo+Tamma+2:wght@700&display=swap" rel="stylesheet">
 
 <ion-header>
-  <ion-toolbar class="header" mode="ios">
+  <ion-toolbar class="color" mode="ios">
     <ion-buttons slot="start">
       <ion-button (click)="mostrarMenu()">
         <ion-icon class="botones" slot="icon-only" name="menu-outline"></ion-icon>
       </ion-button>
     </ion-buttons>
-    <ion-title class="centerbaloo" style="color: white;">Inicio
-    </ion-title>
   </ion-toolbar>
 </ion-header>
 
 <ion-content>
-
-  <br><br>
   <ion-card>
     <ion-img src="/assets/02.jpg"></ion-img>
     <ion-card-header>
@@ -97,15 +93,7 @@
       limpio, secos y libres de material orgánicos, continuando por depoditar cada uno de
       los residuos en su correspondiente bote de papel, plastico, vidrio y carton.
     </ion-card-content>
-  </ion-card><br><br>
-
-  <p style="color: white; text-align: center; margin: 1%;">¡Haz click en el logo de la App para aprender sobre
-    contenedores y puntos
-    de reciclaje en
-    Chile! <br>
-    | <br>
-    v <br></p><br><br>
-
+  </ion-card>
 
   <ion-fab vertical="bottom" horizontal="end" slot="fixed">
     <ion-fab-button>
@@ -126,24 +114,33 @@
 </ion-content>
 
 <ion-footer>
-  <ion-toolbar class="header">
-    <ion-buttons slot="start">
-      <ion-button id="changeText" routerLink="/noticias">
-        <ion-icon class="botones" slot="end" name="newspaper"></ion-icon>
-      </ion-button>
-    </ion-buttons>
+  <ion-toolbar class="color">
+    <div class="footer-buttons">
+      <ion-buttons slot="start">
+        <ion-button id="changeText" routerLink="/noticias">
+          <div class="button-content">
+            <ion-icon class="botones" name="newspaper"></ion-icon>
+            <div class="button-label">Noticias</div>
+          </div>
+        </ion-button>
+      </ion-buttons>
 
-    <ion-buttons>
-      <ion-button id="changeText" routerLink="/contenido">
-        <img class="center" src="/assets/logonav.png">
-      </ion-button>
-    </ion-buttons>
+      <ion-buttons>
+        <ion-button id="changeText" routerLink="/contenido">
+          <div class="button-content">
+            <img src="/assets/logonav.png">
+          </div>
+        </ion-button>
+      </ion-buttons>
 
-
-    <ion-buttons slot="end">
-      <ion-button id="changeText" routerLink="/logout">
-        <ion-icon class="botones" slot="start" name="log-out"></ion-icon>
-      </ion-button>
-    </ion-buttons>
+      <ion-buttons slot="end">
+        <ion-button id="changeText" routerLink="/logout">
+          <div class="button-content">
+            <ion-icon class="botones" name="log-out"></ion-icon>
+            <div class="button-label">Salir</div>
+          </div>
+        </ion-button>
+      </ion-buttons>
+    </div>
   </ion-toolbar>
 </ion-footer>

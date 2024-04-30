@@ -17,4 +17,4 @@ import { NoticiasPage } from './noticias.page';
   ],
   declarations: [NoticiasPage]
 })
-export class NoticiasPageModule {}
+export class NoticiasPageModule { }

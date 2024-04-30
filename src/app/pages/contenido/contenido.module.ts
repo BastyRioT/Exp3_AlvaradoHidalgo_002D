@@ -17,4 +17,4 @@ import { ContenidoPage } from './contenido.page';
   ],
   declarations: [ContenidoPage]
 })
-export class ContenidoPageModule {}
+export class ContenidoPageModule { }

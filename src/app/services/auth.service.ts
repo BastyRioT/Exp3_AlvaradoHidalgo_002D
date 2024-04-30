@@ -26,17 +26,19 @@ export class AuthService {
   }
 
   register(email: string, password: string, usuario: string) {
-
     return new Promise((resolve, reject) => {
       this.AFauth.createUserWithEmailAndPassword(email, password).then(res => {
-        const uid = res.user.uid
-        this.db.collection('usuarios').doc(uid).set({
-          usuario: usuario,
-          uid: uid
-        })
-
-        resolve(res)
-      }).catch(err => reject(err))
-    })
+        if (res.user) {
+          const uid = res.user.uid;
+          this.db.collection('usuarios').doc(uid).set({
+            usuario: usuario,
+            uid: uid
+          });
+          resolve(res);
+        } else {
+          reject(new Error('El usuario no se ha creado correctamente'));
+        }
+      }).catch(err => reject(err));
+    });
   }
 }

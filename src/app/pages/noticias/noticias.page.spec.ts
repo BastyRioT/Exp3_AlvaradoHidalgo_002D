@@ -9,7 +9,7 @@ describe('NoticiasPage', () => {
 
   beforeEach(waitForAsync(() => {
     TestBed.configureTestingModule({
-      declarations: [ NoticiasPage ],
+      declarations: [NoticiasPage],
       imports: [IonicModule.forRoot()]
     }).compileComponents();
 

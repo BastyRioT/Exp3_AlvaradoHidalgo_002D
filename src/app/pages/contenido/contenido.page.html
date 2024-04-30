@@ -1,6 +1,14 @@
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Baloo+Tamma+2:wght@700&display=swap" rel="stylesheet">
+
 <ion-header>
   <ion-toolbar class="header" mode="ios">
-    <ion-title><img src="/assets/logonav.png" alt=""></ion-title>
+    <ion-buttons slot="start">
+      <ion-back-button class="botones" text="Atrás">
+      </ion-back-button>
+    </ion-buttons>
+    <ion-title></ion-title>
   </ion-toolbar>
 </ion-header>
 
@@ -218,24 +226,33 @@
 </ion-content>
 
 <ion-footer>
-  <ion-toolbar class="header">
-    <ion-buttons slot="start">
-      <ion-button id="changeText" routerLink="/inicio">
-        <ion-icon class="botones1" slot="end" name="home"></ion-icon>
-      </ion-button>
-    </ion-buttons>
+  <ion-toolbar class="color">
+    <div class="footer-buttons">
+      <ion-buttons slot="start">
+        <ion-button id="changeText" routerLink="/noticias">
+          <div class="button-content">
+            <ion-icon class="botones" name="newspaper"></ion-icon>
+            <div class="button-label">Noticias</div>
+          </div>
+        </ion-button>
+      </ion-buttons>
 
-    <ion-buttons>
-      <ion-button id="changeText" routerLink="#">
-        <img class="center" src="/assets/logonav.png">
-      </ion-button>
-    </ion-buttons>
+      <ion-buttons>
+        <ion-button id="changeText" routerLink="/inicio">
+          <div class="button-content">
+            <img src="/assets/logonav.png">
+          </div>
+        </ion-button>
+      </ion-buttons>
 
-
-    <ion-buttons slot="end">
-      <ion-button id="changeText" routerLink="/noticias">
-        <ion-icon class="botones1" slot="start" name="newspaper"></ion-icon>
-      </ion-button>
-    </ion-buttons>
+      <ion-buttons slot="end">
+        <ion-button id="changeText" routerLink="/logout">
+          <div class="button-content">
+            <ion-icon class="botones" name="log-out"></ion-icon>
+            <div class="button-label">Salir</div>
+          </div>
+        </ion-button>
+      </ion-buttons>
+    </div>
   </ion-toolbar>
 </ion-footer>

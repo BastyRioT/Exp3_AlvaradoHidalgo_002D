@@ -10,8 +10,8 @@ import swal from 'sweetalert2';
 })
 export class LoginPage implements OnInit {
 
-  email: string;
-  password: string;
+  email: string = '';
+  password: string = '';
 
   constructor(private authService: AuthService, public router: Router) { }
 

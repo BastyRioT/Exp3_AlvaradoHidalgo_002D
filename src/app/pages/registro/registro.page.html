@@ -2,34 +2,29 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Baloo+Tamma+2:wght@700&display=swap" rel="stylesheet">
 
-<ion-header>
-  <ion-toolbar class="header" mode="ios">
-    <ion-title style="font-family: 'Baloo Tamma 2', cursive; font-size: x-large; color: white;">Registro</ion-title>
-  </ion-toolbar>
-</ion-header>
-
-<ion-content><br>
-    <img src="/assets/logo.png" class="logo"><br>
+<ion-content>
+  <img src="/assets/logo.png" class="logo">
+  <div class="titulos">
+    <h1>Crear Cuenta</h1>
+  </div>
+  <div class="container">
     <ion-item color="medium">
-      <ion-label position="floating">Usuario</ion-label>
-      <ion-input type="text" [(ngModel)]="usuario" name="usuario"></ion-input>
+      <ion-input type="text" [(ngModel)]="usuario" name="usuario" placeholder="Usuario"></ion-input>
     </ion-item>
     <ion-item color="medium">
-      <ion-label position="floating">Correo Electrónico</ion-label>
       <ion-input type="text" [(ngModel)]="email" name="email"
-        pattern="^([a-zA-Z0-9_\-\.]+)@([a-zA-Z0-9_\-\.]+)\.([a-zA-Z]{2,5})$">
+        pattern="^([a-zA-Z0-9_\-\.]+)@([a-zA-Z0-9_\-\.]+)\.([a-zA-Z]{2,5})$" placeholder="Correo Electrónico">
       </ion-input>
     </ion-item>
     <ion-item color="medium">
-      <ion-label position="floating">Contraseña</ion-label>
-      <ion-input type="password" [(ngModel)]="password" name="password">
+      <ion-input type="password" [(ngModel)]="password" name="password" placeholder="Contraseña">
       </ion-input>
     </ion-item>
-    <br>
-    <ion-button (click)="OnSubmitRegister()" expand="block">Registrarse </ion-button><br>
-    <p style="text-align: center;  color: white;">
-      ¿Tienes una cuenta? <a style="text-align: center;" routerLink="/login">Haz click aquí</a>
-    </p>
+    <ion-button (click)="OnSubmitRegister()" expand="block">Registrarse </ion-button>
+  </div>
+  <p style="text-align: center;  color: white;">
+    ¿Tienes una cuenta? <a style="text-align: center;" routerLink="/login">Haz click aquí</a>
+  </p>
 
 
 </ion-content>

@@ -10,9 +10,9 @@ import swal from 'sweetalert2';
 })
 export class RegistroPage implements OnInit {
 
-  public email: string;
-  public usuario: string;
-  public password: string;
+  public email: string = '';
+  public usuario: string = '';
+  public password: string = '';
 
   constructor(private auth: AuthService, private router: Router) { }
 

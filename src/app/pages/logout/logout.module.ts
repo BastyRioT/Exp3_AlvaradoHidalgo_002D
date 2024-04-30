@@ -17,4 +17,4 @@ import { LogoutPage } from './logout.page';
   ],
   declarations: [LogoutPage]
 })
-export class LogoutPageModule {}
+export class LogoutPageModule { }

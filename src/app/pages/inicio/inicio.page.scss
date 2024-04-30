@@ -1,38 +1,33 @@
-ion-content { 
-    --ion-background-color:#26262D; 
+ion-content {
+    --ion-background-color: #26262D;
 }
 
-.centerbaloo{
-    text-align: center;
-    font-family: 'Baloo Tamma 2', cursive; font-size: x-large;
+.footer-buttons {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
-.logo{
-    width: 100%;
-    height: 160px;
+.footer-buttons ion-button {
+    margin: 0 50px;
 }
 
-.center {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 100%;
-    margin: 100px;
+.button-label {
+    font-size: 12px;
+    margin-top: 5px;
+    color: white;
 }
 
-.centrar{
+.centrar {
     text-align: justify;
+    text-align: center;
 }
 
-.header{
+.color {
     --background: #000000;
+    height: 50px;
 }
 
-.botones{
-    color: #ffffff;
-}
-
-.logos{
-    width: 100%;
-    height: 80px;
+.botones {
+    color: #A4CF47;
 }

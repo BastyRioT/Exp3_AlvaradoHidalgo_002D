@@ -12,7 +12,5 @@ export class ContenidoPage implements OnInit {
   ngOnInit() {
   }
 
-
-
 }
 
