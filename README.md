@@ -5,6 +5,7 @@ RecycleApp es una aplicación que te enseñara a reciclar, este es un proyecto s
 
 ## Importante 💻
 Se debe instalar npm para poder utilizar la app.
+En cmd dentro de la carpeta raíz: npm install
 
 ## Imagenes del Proyecto 📱
 
