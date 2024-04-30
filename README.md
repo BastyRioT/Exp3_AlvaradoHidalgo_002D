@@ -1,8 +1,9 @@
-<h1>RecycleApp ♻️</h1>
-<hr>
-Aplicación realizada en Ionic con Angular, esta app busca enseñar y dar a conocer las formas de reciclaje existentes, el proyecto fue realizado por Bastián Alvarado y Yanara Hidalgo.
-(./project-imgs/
-<hr>
-<h1>Importante 💻</h1>
+# RecycleApp ♻️
+Hollow es un pequeño minijuego en donde podrás resolver ejercicios matemáticos de los principales operadores aritméticos.
 
-Para utilizar la app se necesita que haga un npm install en la carpeta raíz.
+![RecycleApp](./project-imgs/Home.jpg)
+
+## Importante 💻
+Se debe instalar npm para poder utilizar la app.
+
+##Imagenes del Proyecto
