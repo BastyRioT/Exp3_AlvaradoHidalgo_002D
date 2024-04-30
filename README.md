@@ -6,7 +6,7 @@ RecycleApp es una aplicación que te enseñara a reciclar, este es un proyecto s
 ## Importante 💻
 Se debe instalar npm para poder utilizar la app.
 
-## Imagenes del Proyecto
+## Imagenes del Proyecto 📱
 
 Inicio de Sesión<br>
 ![RecycleApp](project-imgs/Login)
