@@ -6,6 +6,7 @@ RecycleApp es una aplicación que te enseñará a reciclar, este es un proyecto 
 ## Importante 💻
 Se debe instalar npm para poder utilizar la app.
 En cmd dentro de la carpeta raíz: npm install
+Por ultimo una vez terminada la instalación, para ejecutar la aplicación se debe escribir ionic serve
 
 ## Imagenes del Proyecto 📱
 
