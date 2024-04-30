@@ -1,5 +1,5 @@
 # RecycleApp ♻️
-RecycleApp es una aplicación que te enseñara a reciclar, este es un proyecto semestral, fue realizado por Bastián Alvarado y Yanara Hidalgo
+RecycleApp es una aplicación que te enseñará a reciclar, este es un proyecto semestral, fue realizado por Bastián Alvarado y Yanara Hidalgo
 
 ![RecycleApp](project-imgs/Home)
 
